@@ -1,0 +1,10 @@
+name: DISCORDJOINANDQUITS
+version: 1.0
+main: discordwebhook.discordWebhook
+api-version: 1.21
+description: A plugin that sends a message to Discord when players join and leave via webhooks.
+author: Jeffrey Yeung
+commands:
+   setwebhook:
+      description: Sets the webhook URL.
+      usage: /setwebhook <url>
